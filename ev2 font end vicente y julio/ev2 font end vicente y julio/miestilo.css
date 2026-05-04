@@ -1,0 +1,141 @@
+/* 🔹 GENERAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+/* 🔹 TITULOS */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* 🔹 HEADER */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 🔹 SECCIONES */
+section {
+    padding: 20px;
+}
+
+/* 🔹 EQUIPO (IMÁGENES EN HORIZONTAL) */
+.equipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.persona {
+    text-align: center;
+}
+
+.persona img {
+    width: 120px; /* 🔥 tamaño más pequeño */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+}
+
+/* 🔹 SERVICIOS */
+#contenedorServicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* 🔹 TARJETAS */
+.card {
+    background: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* 🔹 IMÁGENES EN TARJETAS */
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 🔹 TARJETAS EXTRA */
+#tarjetasExtra {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* 🔹 MAPA */
+.mapa {
+    margin-top: 20px;
+}
+
+/* 🔹 FORMULARIO */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 🔹 BOTÓN */
+button {
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* 🔹 MENSAJE */
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
